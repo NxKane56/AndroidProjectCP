@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Health"
+                style="@style/Column_one"
+                android:text="Состояние" />
+
+            <TextView
+                android:id="@+id/text_Health"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Level"
+                style="@style/Column_one"
+                android:text="Уровень" />
+
+            <TextView
+                android:id="@+id/text_Level"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Power"
+                style="@style/Column_one"
+                android:text="Источник" />
+
+            <TextView
+                android:id="@+id/text_Power"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Status"
+                style="@style/Column_one"
+                android:text="Статус" />
+
+            <TextView
+                android:id="@+id/text_Status"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Tech"
+                style="@style/Column_one"
+                android:text="Технология" />
+
+            <TextView
+                android:id="@+id/text_Tech"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/V"
+                style="@style/Column_one"
+                android:text="Напряжение" />
+
+            <TextView
+                android:id="@+id/text_V"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Capacity"
+                style="@style/Column_one"
+                android:layout_width="130dp"
+                android:text="Ёмкость" />
+
+            <TextView
+                android:id="@+id/text_Capacity"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

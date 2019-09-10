@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Cores"
+                style="@style/Column_one"
+                android:text="Ядер" />
+
+            <TextView
+                android:id="@+id/text_Cores"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/BIG_Little"
+                style="@style/Column_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="big.LITTLE" />
+
+            <TextView
+                android:id="@+id/text_big_LITTLE"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Architecture"
+                style="@style/Column_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Архитектура" />
+
+            <TextView
+                android:id="@+id/text_Architecture"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Tech_process"
+                style="@style/Column_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Тех. процесс" />
+
+            <TextView
+                android:id="@+id/text_Tech_process"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CPU_Freq"
+                style="@style/Column_one"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="Частота CPU" />
+
+            <TextView
+                android:id="@+id/text_CPU_Freq"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/GPU_Vendor"
+                style="@style/Column_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Поставщик GPU" />
+
+            <TextView
+                android:id="@+id/text_GPU_Vendor"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/GPU_Renderer"
+                style="@style/Column_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GPU" />
+
+            <TextView
+                android:id="@+id/text_GPU_Renderer"
+                style="@style/Column_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </TableLayout>
+
+</LinearLayout>

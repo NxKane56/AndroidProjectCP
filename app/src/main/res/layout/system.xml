@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Version"
+                style="@style/Column_one"
+                android:text="Версия Android" />
+
+            <TextView
+                android:id="@+id/text_Version"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/API"
+                style="@style/Column_one"
+                android:text="API Level" />
+
+            <TextView
+                android:id="@+id/text_API"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Bootloader"
+                style="@style/Column_one"
+                android:text="Прошивка" />
+
+            <TextView
+                android:id="@+id/text_Bootloader"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Power"
+                style="@style/Column_one"
+                android:text="ID Cборки" />
+
+            <TextView
+                android:id="@+id/text_Build_ID"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/JVM"
+                style="@style/Column_one"
+                android:text="Java VM" />
+
+            <TextView
+                android:id="@+id/text_JVM"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Kernel_Arch"
+                style="@style/Column_one"
+                android:text="Арх. Ядра" />
+
+            <TextView
+                android:id="@+id/text_Kernel_Arch"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Kernel_Version"
+                style="@style/Column_one"
+                android:text="Версия Ядра" />
+
+            <TextView
+                android:id="@+id/text_Kernel_Version"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Time"
+                style="@style/Column_one"
+                android:layout_width="158dp"
+                android:text="System Uptime" />
+
+            <TextView
+                android:id="@+id/text_Time"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

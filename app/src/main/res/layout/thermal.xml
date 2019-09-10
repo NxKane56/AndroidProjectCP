@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/CPU_temp"
+                style="@style/Column_one"
+                android:text="t \u2103 CPU" />
+
+            <TextView
+                android:id="@+id/text_CPU_temp"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/GPU_temp"
+                style="@style/Column_one"
+                android:text="t \u2103 Батареи" />
+
+            <TextView
+                android:id="@+id/text_PSU_temp"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>

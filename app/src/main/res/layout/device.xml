@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Model"
+                style="@style/Column_one"
+                android:text="Модель" />
+
+            <TextView
+                android:id="@+id/text_Model"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Brand"
+                style="@style/Column_one"
+                android:text="Брэнд" />
+
+            <TextView
+                android:id="@+id/text_Brand"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Power"
+                style="@style/Column_one"
+                android:text="Платформа" />
+
+            <TextView
+                android:id="@+id/text_Platform"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Hardware"
+                style="@style/Column_one"
+                android:text='"Железо"' />
+
+            <TextView
+                android:id="@+id/text_Hardware"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Status"
+                style="@style/Column_one"
+                android:text="Размер Экрана" />
+
+            <TextView
+                android:id="@+id/text_Size"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/Tech"
+                style="@style/Column_one"
+                android:text="Разрешение" />
+
+            <TextView
+                android:id="@+id/text_Res"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/V"
+                style="@style/Column_one"
+                android:text="Плотность " />
+
+            <TextView
+                android:id="@+id/text_Dpi"
+                style="@style/Column_two"
+                android:text="TextView" />
+        </TableRow>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+    </TableLayout>
+</LinearLayout>
